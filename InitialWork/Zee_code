@@ -1,0 +1,15 @@
+import cv2
+from cvzone.HandTrackingModule import HandDetector
+from cvzone.FaceMeshModule import FaceMeshDetector
+
+cap = cv2.VideoCapture(0)
+hand_detector = HandDetector(maxHands=2)
+eyebrow_detector = FaceMeshDetector(staticMode=False, maxFaces=1, minDetectionCon=0.5, minTrackCon=0.5)
+
+while True:
+    success, img = cap.read()
+    hands, img = hand_detector.findHands(img)
+    img, faces = eyebrow_detector.findFaceMesh(img)
+
+    cv2.imshow('Img', img)
+    cv2.waitKey(1)
