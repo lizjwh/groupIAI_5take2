@@ -1,1 +1,4 @@
 model.load_state_dict(torch.load('OGModelWeights.pth'))
+
+#Load the OG model - you must make sure the OGModelWeights file is uploaded to the current Colab session
+model = (torch.load('/content/Dataset/OGModelWeights.pth'))
