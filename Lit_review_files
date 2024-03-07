@@ -19,6 +19,9 @@ https://dl.acm.org/doi/pdf/10.1145/3474124.3474210
 Sign Language Recognition and Translation: A Multidisciplined Approach From the Field of Artificial Intelligence
 https://www-jstor-org.bris.idm.oclc.org/stable/pdf/42658794.pdf?refreqid=fastly-default%3A43d0576fc43ed8275f0f99db6ea0e497&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1
 
+What is transfer learning?
+https://builtin.com/data-science/transfer-learning
+
 Through the evidence found during the literature review and completion of online tutorials, it is clear that there have been numerous attempts to create sign language interpreters. Due to the variety of sign languages worldwide, there is a lot of overlap between tools, solutions, and methods. The most common ways of capturing sign language is through motion-capture, wearable sensors, radio-frequency identification (RFID), and Leap Motion (Papastratis et al., 2021).
 
 References:
