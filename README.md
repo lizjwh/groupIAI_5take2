@@ -3,6 +3,7 @@
 **EMAT31530: Introduction to AI**
 
 Artificial Intelligence Sign Language Translation Inclusive to Persons with Reduced Mobility
+
 Authors: Emily Burt, Zamaan Dudhia, Elisabeth Herratt, Ella Lovibond, Elissa Malet and Emmet Richardson
 
 March 2024
